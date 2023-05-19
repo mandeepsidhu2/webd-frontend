@@ -1,0 +1,45 @@
+.cookieContainer {
+  text-align: center;
+  font: 16px "Poppins", sans-serif;
+}
+
+.cookieIcon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #f1f5f9;
+}
+
+.cookieText {
+  margin-top: 10px;
+}
+
+.cookieButtons > button {
+  transition: all 0.3s ease-out;
+  margin-top: 8px;
+}
+.cookieButtons > button:nth-child(1) {
+  border: 3px solid #00e5d8;
+  background-color: #00e5d8;
+  color: black;
+  padding: 5px 20px;
+  border-radius: 8px;
+  margin: 10px 20px 0 0;
+}
+.cookieButtons > button:nth-child(1):hover {
+  background-color: #fff;
+}
+
+.cookieButtons > button:nth-child(2) {
+  border: 3px solid #6b7280;
+  background-color: #6b7280;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+.cookieButtons > button:nth-child(2):hover {
+  background-color: #fff;
+  color: #6b7280;
+}

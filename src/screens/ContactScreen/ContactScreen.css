@@ -1,0 +1,58 @@
+.contact-screen #contact-section{
+    margin : 60px 0;
+}
+.contact-screen #contact-section .contact-section{
+    margin: 80px 20px;
+}
+.contact-screen #contact-section .contact-heading{
+    font: 48px 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.contact-screen .modal-button{
+    background-color: #00E5D8;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 60px;
+    font: 18px 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.contact-screen .modal-button:hover{
+    background-color: inherit;
+    color: #00E5D8;
+    border: 3px solid #00E5D8;
+    padding: 12px 57px;
+}
+.contact-screen .form-group .form-label{
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+.contact-screen .form-group input, .contact-screen .form-group textarea{
+    background: #F4F4F4;
+    border: 1px solid #C9C9C9;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #8D8D8D;
+    outline: none;
+    box-shadow: none !important;
+    padding: 20px;
+}
+.contact-screen .form-group input:focus, .contact-screen .form-group textarea:focus{
+    background: #FFFFFF;
+    border: 1px solid #00E6D8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #514C4C;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.contact-header{
+    background-color: #F2E6CB;
+    border-radius: 8px;
+    height: 300px;
+}

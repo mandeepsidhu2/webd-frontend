@@ -1,0 +1,15 @@
+.policyhead{
+    font: 56px 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.policy-section{
+    margin: 80px 20px;
+}
+.policy-screen #policy-section{
+    margin : 60px 0;
+}
+.policy-screen #policy-section .policy-text{
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 400;
+    color: black;
+}

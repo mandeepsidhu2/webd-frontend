@@ -1,0 +1,28 @@
+.about-screen #about-section{
+    margin : 60px 0;
+}
+.about-screen .mw500{
+    max-width: 500px;
+}
+.about-screen #about-section .about-section{
+    margin: 80px 20px;
+}
+.about-screen #about-section .about-heading{
+    font: 48px 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.about-screen #about-section .about-text{
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+.about-header{
+    background-color: #00e5d8;
+    border-radius: 8px;
+    height: 300px;
+}
+.about-tabber{
+    width: 90% !important;
+}

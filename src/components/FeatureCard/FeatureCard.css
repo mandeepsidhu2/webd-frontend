@@ -1,0 +1,25 @@
+.feature-card{
+    background: #F8F8F8;
+    box-shadow: 2px 2px 13px 4px rgba(165, 165, 165, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 30%;
+}
+.feature-text{
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+    text-align: center;
+}
+.feature-innertext{
+    font: 16px 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.feature-icon{
+    color: rgba(214, 175, 54, 1);
+    font-size: 40px !important;
+    margin: 40px 0;
+}

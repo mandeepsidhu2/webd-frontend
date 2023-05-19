@@ -1,0 +1,373 @@
+.history {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.history .history-button {
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  margin-right: 20px;
+  padding: 10px 30px;
+  font: 18px "Poppins", sans-serif;
+  font-weight: 500;
+  border: 1px solid black;
+}
+.history .history-button:hover {
+  background-color: inherit;
+  border: 1px solid #00e5d8;
+  color: gray;
+}
+.share {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.share .share-button {
+  background-color: #00e5d8;
+  border-radius: 8px;
+  border: none;
+  margin-right: 20px;
+  padding: 10px 30px;
+  font: 18px "Poppins", sans-serif;
+  font-weight: 500;
+}
+.share .share-button:hover {
+  background-color: inherit;
+  border: 3px solid #00e5d8;
+  color: #00e5d8;
+  padding: 7px 27px;
+}
+.portfolio-section {
+  background: rgba(246, 246, 246, 1);
+  border-radius: 8px;
+  margin: 0 20px 60px 20px;
+}
+.portfolio-section .title {
+  font: 48px "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  background-color: inherit;
+}
+.portfolio-section .profile-pic {
+  height: 180px;
+  width: 180px;
+}
+.portfolio-section .nameText {
+  font: 20px "Poppins", sans-serif;
+  font-weight: 400;
+}
+.portfolio-section .name {
+  font: 20px "Poppins", sans-serif;
+  font-weight: bold;
+  border: none;
+  background-color: inherit;
+  margin-left: 8px;
+}
+.portfolio-section .desc {
+  font: 20px "Poppins", sans-serif;
+  font-weight: 400;
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+}
+textarea {
+  overflow: hidden;
+  resize: none;
+}
+.portfolio-section .add-card,
+.portfolio-section .add-card1 {
+  background-color: white;
+  width: 44%;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 4px 8px 2px rgba(230, 230, 230, 0.25);
+  border-radius: 8px;
+}
+.portfolio-section .card-heading {
+  font: 24px "Poppins", sans-serif;
+  font-weight: bold;
+}
+.end-text {
+  font: 20px "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgba(154, 154, 154, 1);
+}
+input:focus,
+textarea:focus {
+  border: none;
+  outline: none;
+}
+.portfolio-section .coding-profile button {
+  background-color: inherit;
+  border: none;
+  height: 100%;
+  width: 100%;
+  outline: none;
+}
+.iconcontainer {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border: 1px solid rgba(170, 170, 170, 1);
+  border-radius: 20px;
+  position: absolute;
+  top: -15%;
+  right: -2%;
+  cursor: pointer;
+}
+.iconcontainerCourse{
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border: 1px solid rgba(170, 170, 170, 1);
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+.iconcontainer1 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border: 1px solid rgba(170, 170, 170, 1);
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.portfolio-icon {
+  color: rgba(170, 170, 170, 1);
+  font-size: 20px;
+}
+.info-sec {
+  margin: 40px 0;
+}
+.courses{
+  background-color: inherit;
+  border: none;
+  height: 100%;
+  width: 100%;
+  outline: none;
+}
+.courseList{
+  margin: 20px;
+  padding: 28px 24px;
+  background-color: white;
+  width: 92%;
+  box-shadow: 0px 4px 8px 2px rgb(230 230 230 / 25%);
+  border-radius: 8px;
+}
+.pointer{
+  cursor: pointer;
+}
+.course-card{
+  position: relative;
+  padding: 10px;
+  padding-bottom: 20px;
+  gap: 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.course__logo{
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+}
+.course__name{
+  font: 20px 'Poppins';
+  font-weight: 500;
+}
+.course__name:hover{
+  text-decoration: underline !important;
+  color: black !important;
+}
+.course__issuer{
+  font: 20px 'Poppins';
+  color: rgba(0,0,0,0.5);
+}
+.company__name{
+  font: 20px 'Poppins';
+  font-weight: 500;
+}
+.experience__date{
+  font: 18px 'Poppins';
+  color: rgba(0,0,0,0.5);
+}
+.viewCourses{
+  padding-top: 20px;
+}
+.viewCourses__containter{
+  gap: 10px;
+}
+.viewCourses__text{
+  font: 20px 'Poppins';
+  color: #202C39;
+}
+.drawerImg{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px
+}
+.drawerImg1{
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px
+}
+.drawerOption{
+  margin-bottom: 10px;
+  position: relative;
+  right: 40px;
+  cursor: pointer
+}
+.drawerOption1{
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.projectCardHD{
+  font-size: 30px;
+  position: absolute;
+  top: 0px;
+  height: 60%;
+  width: 100%; 
+  cursor: pointer
+}
+.contestProfile{
+  position: absolute;
+  top: -15%;
+  right:-2%
+}
+.experience__section {
+  font: 16px 'Poppins';
+  width: 90%;
+}
+.experience__desc {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  color: #7b7b7b;
+  padding: 8px;
+  margin-top: 3px;
+  min-height: 50px;
+}
+.experience__type {
+  margin-top: 5px;
+  padding-left: 5px;
+  color: #7b7b7b;
+  font-weight: 500;
+}
+/* Portfolio Visitor Views */
+.viewsContainer {
+  color: #9A9A9A;
+}
+.viewsDetails {
+  font: 16px 'Poppins';
+}
+.viewsContainer div:nth-child(1) {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.viewsContainer div.viewsDetails p {
+  padding: 0 5px;
+}
+.viewsContainer div.viewsDetails > p.recent {
+  margin-left: 20px;
+}
+div > div.viewsDetails > svg:nth-child(3),
+div > div.viewsDetails > svg:nth-child(6) {
+  font-size: 20px;
+}
+div > div.viewsDetails > svg:nth-child(3):hover,
+div > div.viewsDetails > svg:nth-child(6):hover {
+  color: #00e5d8;
+}
+.viewsDetails div.totalViews,
+.viewsDetails div.recentViews {
+  margin: 0 5px;
+}
+
+@media (max-width: 480px){
+  .course-card {
+    padding: 10px 25px;
+  }
+  .courseList {
+    padding: 10px 0;
+    width: 86%;
+  }
+  .iconcontainerCourse {
+    width: 20px;
+    height: 20px;
+  }
+  .experience__section {
+    font-size: 12px;
+  }
+  .course__name {
+    font-size: 14px;
+    padding-top: 20px !important;
+  }
+  .course__issuer {
+    font-size: 12px;
+  }
+  .company__name {
+    font-size: 14px !important;
+  }
+  .experience__date {
+    font-size: 12px;
+  }
+  div.flexRow.flexBetween.flexAlignCenter.mb-20 > a > svg {
+    height: 25px;
+    width: 25px;
+  }
+  .drawerImg {
+    width: 20px;
+    height: 20px;
+  }
+  .viewCourses {
+    padding-top: 10px;
+  }
+  .viewCourses__text {
+    font-size: 16px;
+  }
+  /* Portfolio Visitor Views */
+  .viewsContainer {
+    color: #9A9A9A;
+  }
+  div.viewsDetails {
+    font-size: 12px;
+  }
+  .viewsContainer div:nth-child(1) {
+    font: 12px 'Poppins';
+    font-weight: 500;
+  }
+  .viewsDetails div.totalViews,
+  .viewsDetails div.recentViews {
+    font: 12px 'Poppins';
+  }
+  div > div.viewsDetails > svg:nth-child(3),
+  div > div.viewsDetails > svg:nth-child(6) {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 690px) and (max-width: 768px){    
+  .viewsContainer div:nth-child(1) {
+    font: 16px 'Poppins';
+    font-weight: 500;
+  }
+  .viewsDetails div.totalViews,
+  .viewsDetails div.recentViews {
+    font: 16px 'Poppins';
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .viewsContainer div:nth-child(1) {
+    font: 16px 'Poppins';
+    font-weight: 500;
+  }
+  .viewsDetails div.totalViews,
+  .viewsDetails div.recentViews {
+    font: 16px 'Poppins';
+  }
+}

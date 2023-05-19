@@ -1,0 +1,1815 @@
+/* Header */
+@media (min-width: 992px){
+    .header .navbar-nav .nav-link{
+        font-weight: 400 !important;
+        font-size: 1.25rem !important;
+    }
+    .header .w100{
+        width: 100% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .header .w100{
+        width: 70% !important;
+    }
+    .header .navbar-brand{
+        margin-right: 0;
+    }
+    .header .mr-80{
+        margin-right: 20px;
+    }
+    .header .navbar-nav .nav-link{
+        font-size: 1rem !important;
+    }
+}
+@media (min-width: 690px) and (max-width: 768px){    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+}
+@media (min-width: 600px) and (max-width: 768px){
+    .header .navbar-brand{
+        margin-right: 0;
+    }
+    .header .mr-80{
+        margin-right: 20px;
+    }
+    .header .navbar-nav .nav-link{
+        font-size: 1rem !important;
+    }
+    .header .w100{
+        width: 70% !important;
+    }
+    .header .navbar-brand img{
+        height: 20px !important;
+        width: 100px !important;
+    }
+    .header button{
+        height: 40px !important;
+        width: 160px !important;
+    }
+    .header .google-button, .edit-your-portfolio{
+        font-size: 11px !important;
+        font-weight: 400 !important;
+    }
+    .header .edit-your-portfolio{
+        padding: 5px 20px !important;
+    }
+    .header .avatar-name{
+        font-size: 12px !important;
+    }
+    .header .avatar{
+        margin-left: 40px !important;
+    }
+}
+@media (min-width: 600px) and (max-width: 690px){    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0.6rem !important;
+        padding-right: 0.6rem !important;
+    }
+    .header .avatar-name{
+        font-size: 16px !important;
+    }
+    .header .avatar{
+        margin-left: 30px !important;
+    }
+    .header .edit-your-portfolio{
+        padding: 5px 20px !important;
+    }
+}
+@media (min-width: 480px) and (max-width: 600px){
+    .header .navbar-brand{
+        margin-right: 0;
+    }
+    .header .mr-80{
+        margin-right: 20px;
+    }
+    .header .navbar-nav{
+        display: none !important;
+    }
+    .header .navbar-brand img{
+        height: 20px !important;
+        width: 100px !important;
+    }
+    .header button{
+        height: 40px !important;
+        width: 160px !important;
+    }
+    .header .google-button, .edit-your-portfolio{
+        font-size: 11px !important;
+        font-weight: 400 !important;
+        margin-left: auto !important;
+    }
+    .header .w100{
+        width: auto !important;
+    }
+    .header .avatar-name{
+        font-size: 14px !important;
+    }
+    .header .avatar{
+        margin-left: 50px !important;
+    }    
+    .header .edit-your-portfolio{
+        padding: 5px 20px !important;
+    }
+}
+@media (max-width: 480px){
+    .header .avatar-name{
+        font-size: 12px !important;
+    }
+    .header .avatar{
+        margin-left: 0px !important;
+    }
+    .header .navbar-brand{
+        margin-right: 0;
+    }
+    .header .mr-80{
+        margin-right: 20px;
+    }
+    .header .navbar-nav{
+        display: none !important;
+    }
+    .header .navbar-brand img{
+        height: 20px !important;
+        width: 100px !important;
+    }
+    .header button{
+        height: 40px !important;
+    }
+    .header .google-button, .edit-your-portfolio{
+        font-size: 11px !important;
+        font-weight: 400 !important;
+    }
+    .header .edit-your-portfolio{
+        padding: 5px 20px !important;
+    }
+    .header .w100{
+        width: auto !important;
+    }
+}
+
+/* HomeScreen */
+@media only screen and (max-width: 480px) {
+    #intro-section img, #why-tabber img{
+        width: 40% !important;
+    }
+    #why-tabber .whytabber-heading, .trending__profilesHeader, .tabberfeatures-heading, .achievements-heading, .tabberfeatures-heading{
+        font: 28px 'Poppins', sans-serif !important;
+        margin-bottom: 10px !important;
+        font-weight: 600 !important;
+    }
+    #intro-section .mw1100, #why-tabber .mw1100, #tabberfeatures .mw1100, #achievements .mw1100, #faq .mw1100 {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+
+    #why-tabber .whytabber-text {
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    #why-tabber .whytabber-point{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .mt-50{
+        margin-top: 20px !important
+    }
+    #intro-section .intro-text {
+        font: 24px 'Gilroy', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    #intro-section .intro-button {
+        width: 75% !important;
+    }
+    #tabberfeatures .pl-40, #achievements .pl-40{
+        padding-left: 0 !important;
+    }
+    #faq .ph-40{
+        padding: 0 0 !important;
+    }
+    #intro-section .intro-button{
+        font-size: 14px !important;
+        font-weight: 700 !important;
+    }
+    #why-tabber .whytabber-features {
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+}
+@media (min-width: 480px) and (max-width: 599px) {
+    #intro-section img, #why-tabber img{
+        width: 40% !important;
+    }
+    #why-tabber .whytabber-heading, .trending__profilesHeader, .tabberfeatures-heading, .achievements-heading, .tabberfeatures-heading{
+        font: 22px 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+    }
+    #intro-section .mw1100, #why-tabber .mw1100, #tabberfeatures .mw1100, #achievements .mw1100, #faq .mw1100 {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+    .mw600 {
+        max-width: 50% !important;
+    }
+    #why-tabber .whytabber-text, .whytabber-point {
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    #intro-section .intro-text {
+        font: 28px 'Gilroy', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    #intro-section .intro-button {
+        width: 80% !important;
+    }
+    #tabberfeatures .pl-40, #achievements .pl-40{
+        padding-left: 0 !important;
+    }
+    #faq .ph-40{
+        padding: 0 0 !important;
+    }
+    #intro-section .intro-button{
+        font-size: 16px !important;
+        font-weight: 700 !important;
+    }
+    #why-tabber .whytabber-features {
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+    #intro-section img, #why-tabber img{
+        width: 45% !important;
+    }
+    #intro-section .about-header img{
+        width: 80% !important;
+    }
+    #why-tabber .whytabber-heading, .tabberfeatures-heading, .trending__profilesHeader, .achievements-heading, .tabberfeatures-heading{
+        font: 30px 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+    }
+    #intro-section .mw1100, #why-tabber .mw1100, #tabberfeatures .mw1100, #achievements .mw1100, #faq .mw1100 {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+    .mw600 {
+        max-width: 43% !important;
+    }
+    #why-tabber .whytabber-text, .whytabber-point {
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    #intro-section .intro-text {
+        font: 36px 'Gilroy', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    #intro-section .intro-button {
+        width: 80% !important;
+    }
+    #tabberfeatures .pl-40, #achievements .pl-40{
+        padding-left: 0 !important;
+    }
+    #faq .ph-40{
+        padding: 0 0 !important;
+    }
+    #intro-section .intro-button{
+        font-size: 18px !important;
+        font-weight: 700 !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #intro-section img, #why-tabber img{
+        width: 45% !important;
+    }
+    #why-tabber .whytabber-heading, .tabberfeatures-heading, .trending__profilesHeader, .achievements-heading, .tabberfeatures-heading{
+        font: 36px 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+    }
+    #intro-section .mw1100, #why-tabber .mw1100, #tabberfeatures .mw1100, #achievements .mw1100, #faq .mw1100 {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+    .mw600 {
+        max-width: 43% !important;
+    }
+    #why-tabber .whytabber-text, .whytabber-point {
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    #intro-section .intro-text {
+        font: 40px 'Gilroy', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    #intro-section .intro-button {
+        width: 60% !important;
+    }
+    #tabberfeatures .pl-40, #achievements .pl-40{
+        padding-left: 0 !important;
+    }
+    #faq .ph-40{
+        padding: 0 0 !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #intro-section .mw1100, #why-tabber .mw1100, #tabberfeatures .mw1100, #achievements .mw1100, #faq .mw1100 {
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+    .mw600 {
+        max-width: 50% !important;
+    }
+    #intro-section .intro-text {
+        font: 48px 'Gilroy', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    #intro-section .intro-button {
+        width: 44% !important;
+    }
+    #tabberfeatures .pl-40, #achievements .pl-40{
+        padding-left: 0 !important;
+    }
+    #faq .ph-40{
+        padding: 0 0 !important;
+    }
+}
+@media (max-width: 1035px){
+    .feature-card{
+        width: 40% !important;
+    }
+}
+@media (max-width: 636px){
+    .feature-card{
+        width: 80% !important;
+    }
+}
+@media (max-width: 810px){
+    .achievement-card{
+        width: 80% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 910px){
+    #why-tabber .whytabber-heading, .tabberfeatures-heading, .trending__profilesHeader, .achievements-heading, .tabberfeatures-heading{
+        font: 34px 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+    }
+    #why-tabber .whytabber-text, .whytabber-point {
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+}
+
+/* Footer */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer{
+        padding: 80px 40px !important
+    }
+    .footer .mw1100{
+        max-width: 90% !important;
+    }
+    .footer-logo {
+        font: 36px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .footer-links {
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .mh-40{
+        margin: 0 40px !important;
+    }
+    .mr-40{
+        margin-right: 40px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer{
+        padding: 80px 20px !important
+    }
+    .footer .mw1100{
+        max-width: 90% !important;
+    }
+    .footer-logo {
+        font: 36px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .footer-links {
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .mh-40{
+        margin: 0 30px !important;
+    }
+    .mr-40{
+        margin-right: 30px !important;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+    .footer{
+        padding: 60px 0 !important
+    }
+    .footer .mw1100{
+        max-width: 90% !important;
+    }
+    .footer-logo {
+        font: 30px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .footer-links {
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .mh-40{
+        margin: 0 20px !important;
+    }
+    .mr-40{
+        margin-right: 20px !important;
+    }
+}
+@media (min-width: 480px) and (max-width: 599px) {
+    .footer{
+        padding: 60px 0 !important
+    }
+    .footer .mw1100{
+        max-width: 90% !important;
+    }
+    .footer-logo {
+        font: 24px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .footer-links {
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .mh-40{
+        margin: 0 15px !important;
+    }
+    .mr-40{
+        margin-right: 15px !important;
+    }
+}
+@media (max-width: 479px) {
+    .footer{
+        padding: 50px 0 !important
+    }
+    .footer .mw1100{
+        max-width: 100% !important;
+    }
+    .footer-logo {
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+        padding-top: 5px;
+    }
+    .footer-links {
+        font: 10px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .mh-40{
+        margin: 0 7px !important;
+    }
+    .mr-40{
+        margin-right: 7px !important;
+    }
+}
+
+/* About Screen */
+@media (max-width: 480px){
+    .about-header{
+        height: 150px !important;
+    }
+    .about-screen #about-section .about-heading{
+        font: 28px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .main-about{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+@media (min-width: 480px) and (max-width: 599px){
+    .about-header{
+        height: 200px !important;
+    }
+    .about-screen #about-section .about-heading{
+        font: 32px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .main-about{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+@media (min-width: 600px) and (max-width: 768px){
+    .about-header{
+        height: 240px !important;
+    }
+    .about-screen #about-section .about-heading{
+        font: 36px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .main-about{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .about-header{
+        height: 250px !important;
+    }
+    .about-screen #about-section .about-heading{
+        font: 40px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .main-about{
+        display: flex;
+        flex-direction: row !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1100px){
+    #about-section{
+        padding: 10px !important
+    }
+}
+/* Contact Screen */
+@media (max-width: 480px){
+    .contact-header{
+        height: 150px !important;
+    }
+    .contact-screen #contact-section .contact-heading{
+        font: 28px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        padding-left: 20px;
+    }
+    .mainAbout{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .about-img{
+        margin-bottom: 20px !important;
+    }
+}
+@media (min-width: 480px) and (max-width: 599px){
+    .contact-header{
+        height: 200px !important;
+    }
+    .contact-screen #contact-section .contact-heading{
+        font: 32px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        padding-left: 20px;
+    }
+}
+@media (min-width: 600px) and (max-width: 768px){
+    .contact-header{
+        height: 240px !important;
+    }
+    .contact-screen #contact-section .contact-heading{
+        font: 36px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        padding-left: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .contact-header{
+        height: 250px !important;
+    }
+    .contact-screen #contact-section .contact-heading{
+        font: 40px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        padding-left: 20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .contact-header{
+        height: 300px !important;
+    }
+    .contact-screen #contact-section .contact-heading{
+        font: 48px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        padding-left: 20px;
+    }
+}
+
+/* PORTFOLIO SCREEN */
+@media (max-width: 480px){
+    .portfolio-section, .display-section {
+        margin: 0 10px 30px 10px;
+        padding: 20px !important;
+    }
+    .share{
+        padding: 15px !important
+    }
+    .info-sec{
+        margin: 10px 0 !important;
+    }
+    .share .share-button {
+        padding: 5px 20px !important;
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .title, .display-section .title{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .name, .display-section .name {
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding-left: 10px !important;
+    }
+    .portfolio-section .desc, .display-section .desc{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 5px 10px !important;
+        height: 60px !important;
+    }
+    .project-desc{
+        color: white;
+        font: 13px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .project-stack{
+        color: white;
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .project-textbox1{
+        padding: 20px 40px !important
+    }
+    .iconcontainer1, .iconcontainer, .iconcontaincerCourse{
+        height: 20px !important;
+        width: 20px !important;
+    }
+    .portfolio-icon{
+        font-size: 12px !important;
+    }
+    .portfolio-section .add-card, .add-card1{
+        width: 90% !important;
+        height: 100% !important;
+    }
+    .portfolio-section .card-heading, .display-section .card-heading{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        margin-bottom: 0 !important;
+    }
+    .end-text{
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    } 
+    .end-section{
+        padding: 0 !important;
+    }
+    .profile-card{
+        width: 90% !important;
+        padding-bottom: 10px !important;
+    }
+    .achievement-card .logo, .logo{
+        height: 30px !important;
+        width: 108px !important;
+        margin-bottom: 20px !important;
+    }
+    .profile-heading{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .profile-name{
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .project-card{
+        width: 90% !important;
+        height: 200px !important;
+    }
+    .achievement-card{
+        width: 100% !important;
+        padding-bottom: 10px !important;
+    }
+    .achievement-heading {
+        font: 19px 'Gilroy', sans-serif !important;
+        font-weight: 800 !important;
+        margin-bottom: 0px !important;
+    }
+    .achievement-text {
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .achievement-card .achievement-logo{
+        height: 75px !important;
+        width: 75px !important;
+    }
+    .faq-ques {
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .faq-card svg{
+        margin-bottom: 8px !important;
+        margin-left: 5px !important
+    }
+    .faq-card{
+        padding: 10px !important
+    }
+    #achievements{
+        padding: 60px 20px !important
+    }
+    #faq{
+        padding: 40px 20px !important;
+    }
+    .ans-card{
+        padding: 20px !important;
+    }
+    .ans {
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .project-textbox{
+        height: 60px !important;
+    }
+    .project-name{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .delete-icon, .edit-icon, .hide-icon, .achievement-card .delete-icon, .achievement-card .edit-icon, .achievement-card .hide-icon{
+        height: 20px !important;
+        width: 20px !important;
+    }
+    .modal-head{
+        font-size: 15px !important;
+    }
+    .modal-list {
+        font-size: 14px !important;
+    }
+    .modal-button {
+        font-size: 14px !important;
+    }
+    .modal .form-group .form-label {
+        font: 14px 'Poppins', sans-serif !important;
+    }
+    .modal .form-group input, .modal .form-group select, option {
+        font: 16px 'Poppins', sans-serif !important;
+    }
+    .add-card button svg, .add-card1 button svg{
+        font-size: 40px !important;
+    }
+    .profile-head{
+        font-size: 16px !important;
+    }
+}
+@media (min-width: 480px) and (max-width: 599px){
+    .portfolio-section, .display-section {
+        margin: 0 10px 30px 10px;
+        padding: 20px !important;
+    }
+    #achievements .achievement-card{
+        width: 80% !important;
+    }
+    .achievement-heading {
+        font: 28px 'Gilroy', sans-serif !important;
+        font-weight: 800 !important;
+        margin-bottom: 0px !important;
+    }
+    .achievement-text {
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .achievement-card .achievement-logo{
+        height: 75px !important;
+        width: 75px !important;
+    }
+    .share{
+        padding: 20px !important
+    }
+    .info-sec{
+        margin: 15px 0 !important;
+    }
+    .share .share-button {
+        padding: 5px 20px !important;
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .title, .display-section .title{
+        font: 24px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .name, .display-section .name {
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding-left: 10px !important;
+    }
+    .portfolio-section .desc, .display-section .desc{
+        font: 13px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 5px 10px !important;
+        height: 60px !important;
+    }
+    .project-desc{
+        color: white;
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .project-stack{
+        color: white;
+        font: 9px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .project-textbox1{
+        padding: 20px 10px !important;
+        gap: 10px !important
+    }
+    .iconcontainer1, .iconcontainer, .iconcontaincerCourse{
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .portfolio-icon{
+        font-size: 15px !important;
+    }
+    .portfolio-section .add-card{
+        margin: 10px !important;
+        width: 44% !important;
+        height: 150px !important;
+    }
+    .portfolio-section .add-card1{
+        margin: 10px !important;
+        width: 44% !important;
+        height: 215px !important;
+    }
+    .portfolio-section .card-heading, .display-section .card-heading{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        margin-bottom: 5px !important;
+    }
+    .end-text{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    } 
+    .end-section{
+        padding: 0 !important;
+    }
+    .profile-card{
+        width: 44% !important;
+        padding-bottom: 10px !important;
+        margin: 10px !important;
+    }
+    .logo{
+        height: 20px !important;
+        width: 72px !important;
+        margin-bottom: 20px !important;
+    }
+    .profile-heading{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .profile-name{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .project-card{
+        width: 45% !important;
+        height: 150px !important;
+        margin: 10px !important;
+    }
+    .achievement-card{
+        width: 44% !important;
+        padding-bottom: 10px !important;
+        margin: 10px !important;
+    }
+    .project-textbox{
+        height: 60px !important;
+    }
+    .project-name{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .conv{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .delete-icon, .edit-icon, .hide-icon{
+        height: 25px !important;
+        width: 25px !important;
+    }
+    .modal-head{
+        font-size: 28px !important;
+    }
+    .modal .form-group .form-label {
+        font: 18px 'Poppins', sans-serif !important;
+    }
+    .modal .form-group input, .modal .form-group select, option {
+        font: 18px 'Poppins', sans-serif !important;
+    }
+    .add-card button svg, .add-card1 button svg{
+        font-size: 60px !important;
+    }    
+    .profile-head{
+        font-size: 18px !important;
+    }
+    .courseList {
+        margin: 12px !important;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px){
+    .portfolio-section, .display-section {
+        margin: 0 10px 30px 10px;
+        padding: 20px !important;
+    }
+    #achievements .achievement-card{
+        width: 80% !important;
+    }
+    .achievement-heading {
+        font: 28px 'Gilroy', sans-serif !important;
+        font-weight: 800 !important;
+        margin-bottom: 0px !important;
+    }
+    .achievement-text {
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .share{
+        padding: 20px !important
+    }
+    .info-sec{
+        margin: 15px 0 !important;
+    }
+    .share .share-button {
+        padding: 5px 20px !important;
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .title, .display-section .title{
+        font: 24px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .name, .display-section .name {
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding-left: 10px !important;
+    }
+    .portfolio-section .desc, .display-section .desc{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 10px !important;
+        height: 70px !important;
+    }
+    .project-desc{
+        color: white;
+        font: 13px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .project-stack{
+        color: white;
+        font: 11px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .project-textbox1{
+        padding: 20px 15px !important;
+        gap: 15px !important
+    }
+    .iconcontainer1, .iconcontainer, .iconcontaincerCourse{
+        height: 28px !important;
+        width: 28px !important;
+    }
+    .portfolio-icon{
+        font-size: 18px !important;
+    }
+    .portfolio-section .add-card{
+        margin: 15px !important;
+        width: 45% !important;
+        height: 180px !important;
+    }
+    .portfolio-section .add-card1{
+        margin: 15px !important;
+        width: 45% !important;
+        height: 200px !important;
+    }
+    .portfolio-section .card-heading, .display-section .card-heading{
+        font: 24px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        margin-bottom: 5px !important;
+    }
+    .end-text{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    } 
+    .end-section{
+        padding: 0 !important;
+    }
+    .profile-card{
+        width: 44% !important;
+        padding-bottom: 10px !important;
+        margin: 15px !important;
+    }
+    .logo{
+        height: 30px !important;
+        width: 108px !important;
+        margin-bottom: 20px !important;
+    }
+    .profile-heading{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .profile-name{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .project-card{
+        width: 45% !important;
+        height: 180px !important;
+        margin: 15px !important;
+    }
+    .achievement-card{
+        width: 44% !important;
+        padding-bottom: 10px !important;
+        margin: 15px !important;
+    }
+    .project-textbox{
+        height: 80px !important;
+    }
+    .project-name{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .profile-head{
+        font-size: 20px !important;
+    }
+    /* .conv{
+        display: flex !important;
+        flex-direction: column !important;
+    } */
+    .delete-icon, .edit-icon, .hide-icon{
+        height: 28px !important;
+        width: 28px !important;
+    }
+    .modal-head{
+        font-size: 32px !important;
+    }
+    .modal .form-group .form-label {
+        font: 20px 'Poppins', sans-serif !important;
+    }
+    .modal .form-group input, .modal .form-group select, option {
+        font: 20px 'Poppins', sans-serif !important;
+    }
+    .add-card button svg, .add-card1 button svg{
+        font-size: 70px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #achievements .achievement-card{
+        width: 85% !important;
+    }
+    .achievement-heading {
+        font: 36px 'Gilroy', sans-serif !important;
+        font-weight: 800 !important;
+        margin-bottom: 0px !important;
+    }
+    .achievement-text {
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .portfolio-section, .display-section {
+        margin: 0 10px 30px 10px;
+        padding: 20px !important;
+    }
+    .share{
+        padding: 20px !important
+    }
+    .info-sec{
+        margin: 15px 0 !important;
+    }
+    .share .share-button {
+        padding: 7px 24px !important;
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .title, .display-section .title{
+        font: 28px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .name, .display-section .name {
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding-left: 10px !important;
+    }
+    .portfolio-section .desc, .display-section .desc{
+        font: 19px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 20px !important;
+        height: 100px !important;
+    }
+    .project-desc{
+        color: white;
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .project-stack{
+        color: white;
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .project-textbox1{
+        padding: 30px !important;
+        gap: 20px !important
+    }
+    .iconcontainer1, .iconcontainer, .iconcontaincerCourse{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .portfolio-icon{
+        font-size: 20px !important;
+    }
+    .portfolio-section .add-card{
+        margin: 15px !important;
+        width: 44% !important;
+        height: 200px !important;
+    }
+    .portfolio-section .add-card1{
+        margin: 15px !important;
+        width: 44% !important;
+        height: 230px !important;
+    }
+    .portfolio-section .card-heading, .display-section .card-heading{
+        font: 26px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        margin-bottom: 5px !important;
+    }
+    .end-text{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    } 
+    .end-section{
+        padding: 0 !important;
+    }
+    .profile-card{
+        width: 44% !important;
+        padding-bottom: 10px !important;
+        margin: 15px !important;
+    }
+    .logo{
+        height: 40px !important;
+        width: 144px !important;
+        margin-bottom: 20px !important;
+    }
+    .profile-heading{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .profile-name{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .project-card{
+        width: 44% !important;
+        height: 200px !important;
+        margin: 15px !important;
+    }
+    .achievement-card{
+        width: 44% !important;
+        padding-bottom: 10px !important;
+        margin: 15px !important;
+    }
+    .project-textbox{
+        height: 90px !important;
+    }
+    .project-name{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .profile-head{
+        font-size: 20px !important;
+    }
+    /* .conv{
+        display: flex !important;
+        flex-direction: column !important;
+    } */
+    .delete-icon, .edit-icon, .hide-icon{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .modal-head{
+        font-size: 26px !important;
+    }
+    .modal .form-group .form-label {
+        font: 24px 'Poppins', sans-serif !important;
+    }
+    .modal .form-group input, .modal .form-group select, option {
+        font: 20px 'Poppins', sans-serif !important;
+    }
+    .add-card button svg, .add-card1 button svg{
+        font-size: 70px !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1100px){
+    .portfolio-section, .display-section {
+        margin: 0 10px 30px 10px;
+        padding: 20px !important;
+    }
+    .achievement-heading {
+        font: 28px 'Gilroy', sans-serif !important;
+        font-weight: 800 !important;
+        margin-bottom: 0px !important;
+    }
+    .achievement-text {
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .share{
+        padding: 20px !important
+    }
+    .info-sec{
+        margin: 15px 0 !important;
+    }
+    .share .share-button {
+        padding: 10px 29px !important;
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .title, .display-section .title{
+        font: 36px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .portfolio-section .name, .display-section .name {
+        font: 24px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding-left: 10px !important;
+    }
+    .portfolio-section .desc, .display-section .desc{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 10px 20px !important;
+        height: 100px !important;
+    }
+    .project-desc{
+        color: white;
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .project-stack{
+        color: white;
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .project-textbox1{
+        padding: 30px 40px !important;
+        gap: 25px !important
+    }
+    .iconcontainer1, .iconcontainer, .iconcontaincerCourse{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .portfolio-icon{
+        font-size: 20px !important;
+    }
+    .portfolio-section .add-card{
+        margin: 20px !important;
+        width: 44% !important;
+        height: 230px !important;
+    }
+    .portfolio-section .add-card1{
+        margin: 20px !important;
+        width: 44% !important;
+        height: 230px !important;
+    }
+    .portfolio-section .card-heading, .display-section .card-heading{
+        font: 28px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        margin-bottom: 5px !important;
+    }
+    .end-text{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    } 
+    .end-section{
+        padding: 0 !important;
+    }
+    .profile-card{
+        width: 44% !important;
+        margin: 20px !important;
+    }
+    .logo{
+        height: 50px !important;
+        width: 180px !important;
+        margin-bottom: 20px !important;
+    }
+    .profile-heading{
+        font: 22px 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .profile-name{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-bottom: 5px !important;
+    }
+    .project-card{
+        width: 44% !important;
+        height: 230px !important;
+        margin: 20px !important;
+    }
+    .achievement-card{
+        width: 44% !important;
+        margin: 20px !important;
+    }
+    .project-textbox{
+        height: 100px !important;
+    }
+    .project-name{
+        font: 26px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .profile-head{
+        font-size: 26px !important;
+    }
+    /* .conv{
+        display: flex !important;
+        flex-direction: column !important;
+    } */
+    .delete-icon, .edit-icon, .hide-icon{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .modal-head{
+        font-size: 40px !important;
+    }
+    .modal .form-group .form-label {
+        font: 30px 'Poppins', sans-serif !important;
+    }
+    .modal .form-group input, .modal .form-group select, option {
+        font: 20px 'Poppins', sans-serif !important;
+    }
+    .add-card button svg, .add-card1 button svg{
+        font-size: 80px !important;
+    }    
+    div.flexRow.mw1100.flexBetween > div:nth-child(1) > a {
+        background-color: #00e5d8;
+        color: black;
+    }
+    div.flexRow.mw1100.flexBetween > div:nth-child(1) > a:hover,
+    div.flexRow.mw1100.flexBetween > div:nth-child(4) > button:hover{
+        background-color: inherit;
+        color: black;
+        border: 3px solid #00e5d8;
+    }
+    div.flexRow.mw1100.flexBetween > div:nth-child(4) > button {
+        border: 3px solid #00e5d8;
+        background-color: #00e5d8;
+        color: black;
+    }
+}
+
+/* DISPLAY SCREEN */
+@media(max-width: 480px){
+    .mobile-column{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .cardw100{
+        width: 100% !important;
+    }
+    #tabberfeatures{
+        padding: 40px 20px !important;
+    }
+    #intro-section img, #why-tabber img {
+        width: 80% !important;
+    }    
+    .mw600{
+        width: 80% !important;
+    }
+    .mobile-center{
+        padding-top: 20px !important;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .pb-100{
+        padding-bottom: 20px !important;
+    }
+}
+
+/* Modal Buttons */
+@media(max-width: 480px){
+    .email-button, .history-button, .share .share-button {
+        padding: 5px 15px !important;
+        font: 8px 'Poppins', sans-serif !important;
+        border-radius: 4px !important;
+    }
+    .history {
+        padding: 10px 10px !important;
+    }
+    .share {
+        padding: 10px !important;
+    }
+    .nameText {
+        font-size: 16px !important;
+    }
+    .flexColumn > div.socialsRow {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+    .attach-resume {
+        border-radius: 4px !important;
+        padding: 10px 15px !important;
+        width: 85% !important;
+        margin: 15px 15px 15px 20px !important;
+    }
+    .resume-head{
+        font: 12px 'Poppins', sans-serif !important;
+    }
+    /* .attach-resume__icon{
+        font-size: 25px !important;
+    } */
+    div.socialsRow > div:nth-child(1) > div > svg {
+        font-size: 25px !important;   
+    }
+    div.socialsRow > div:nth-child(2) > div > svg {
+        font-size: 25px !important;
+    }
+    .mail-box{
+        padding: 20px !important;
+    }
+    .mail-content-box{
+        border-radius: 4px !important;
+        margin: 20px 0 !important;
+    }
+    .mailcontent-header{
+        font: 15px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+        padding: 5px !important;
+    }
+    .profile-pic{
+        display: none !important;
+    }
+    .mailcontent-name{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+        margin-bottom: 0 !important;
+    }
+    .mailcontent-mail{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .mailcontent-sec{
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .mailcontent-number{
+        font: 16px 'Poppins', sans-serif;
+        font-weight: 700 !important;
+    }
+    .numbers__code{
+        gap: 20px !important;
+    }
+    .table-head{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .table-date{
+        font: 10px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .table-element{
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .policyhead {
+        font: 24px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .policy-screen #policy-section .policy-text {
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    .modal .form-group input, .modal .form-group select, .modal .form-group textarea {
+        font: 14px 'Poppins', sans-serif !important;
+    }
+    div.flexRow.mw1100.flexBetween > div:nth-child(1) > a,
+    div.flexRow.mw1100.flexBetween > div:nth-child(4) > button {
+        border: 3px solid #00e5d8;
+        background-color: #00e5d8;
+        color: black;
+    }
+    div.flexRow.mw1100.flexBetween > div:nth-child(1) > a:hover,
+    div.flexRow.mw1100.flexBetween > div:nth-child(4) > button:hover {
+        background-color: inherit;
+        color: black;
+        border: 3px solid #00e5d8;
+    }
+    /* Buttons inside Share modal */
+    div > div.flexRow.flexAlignCenter.flexCenter > div:nth-child(1) > a,
+    div > div.flexRow.flexAlignCenter.flexCenter > div:nth-child(2) > a {
+        padding: 10px;
+        font-size: 15px;
+        border: 3px solid #00e5d8;
+    }
+    div > div.flexRow.flexAlignCenter.flexCenter > div:nth-child(1) > a:active,
+    div > div.flexRow.flexAlignCenter.flexCenter > div:nth-child(2) > a:active {
+        border: 3px solid #00e5d8;
+        background-color: inherit;
+        color: black;
+    }   
+    div.socialsRow > div:nth-child(2) > div > div > svg:nth-child(1),
+    div.socialsRow > div:nth-child(2) > div > div > svg:nth-child(2) {
+        font-size: 24px !important;
+    } 
+    div.socialsRow > div:nth-child(1) > div > div > svg:nth-child(1),
+    div.socialsRow > div:nth-child(1) > div > div > svg:nth-child(2) {
+        font-size: 24px !important;
+    }
+    #about-section > div > div:nth-child(2) > div > div > div > div > p,
+    #about-section > div > div:nth-child(2) > div > div > div > p:nth-child(2),
+    #about-section > div > div:nth-child(2) > div > div > div > p:nth-child(3) {
+        font-size: 16px !important;
+    }
+    div.socialsRow > div:nth-child(1) {
+        width: 100% !important;
+    }
+    div.socialsRow > div:nth-child(2) {
+        width: 100% !important;
+    }
+}
+@media(min-width: 480px) and (max-width: 599px){
+    .email-button, .history-button, .share .share-button {
+        padding: 7px 19px !important;
+        font: 12px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        border-radius: 6px !important;
+    }
+    .share, .history{
+        padding: 20px !important;
+    }
+    .attach-resume {
+        border-radius: 6px !important;
+        padding: 7px 16px !important;
+        width: 90% !important;
+        margin: 8px !important;
+    }
+    .resume-head{
+        font: 14px 'Poppins', sans-serif !important;
+    }
+    div.socialsRow > div:nth-child(1) > div > div > svg:nth-child(1) {
+        font-size: 25px !important;
+    }
+    div.socialsRow > div:nth-child(1) > div > div > svg:nth-child(2) {
+        font-size: 25px !important;
+    }
+    div.socialsRow > div:nth-child(2) > div > svg {
+        font-size: 45px !important;
+    }
+    .mail-box{
+        padding: 20px !important;
+    }
+    .mail-content-box{
+        border-radius: 4px !important;
+        margin: 20px 0 !important;
+    }
+    .mailcontent-header{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+        padding: 10px !important;
+    }
+    .profile-pic{
+        height: 60px !important;
+        width: 60px !important;
+    }
+    .mailcontent-name{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+        margin-bottom: 0 !important;
+    }
+    .mailcontent-mail{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .mailcontent-sec{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .mailcontent-number{
+        font: 18px 'Poppins', sans-serif;
+        font-weight: 700 !important;
+    }
+    .numbers__code{
+        gap: 20px !important;
+    }
+    .table-head{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .table-date{
+        font: 13px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .table-element{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .policyhead {
+        font: 28px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .policy-screen #policy-section .policy-text {
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    div.socialsRow > div:nth-child(2) > div > div > svg:nth-child(1),
+    div.socialsRow > div:nth-child(2) > div > div > svg:nth-child(2) {
+        font-size: 30px !important;
+    } 
+    div.socialsRow > div:nth-child(1) > div > div > svg:nth-child(1),
+    div.socialsRow > div:nth-child(1) > div > div > svg:nth-child(2) {
+        font-size: 24px !important;
+    }
+    div.socialsRow > div:nth-child(1) {
+        width: 50% !important;
+    }
+}
+@media(min-width: 600px) and (max-width: 767px){
+    .email-button, .history-button, .share .share-button {
+        padding: 7px 19px !important;
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        border-radius: 6px !important;
+    }
+    .share, .history{
+        padding: 20px !important;
+    }
+    .attach-resume {
+        border-radius: 6px !important;
+        padding: 8px 24px !important;
+        width: 90% !important;
+        margin: 20px !important;
+    }
+    .resume-head{
+        font: 18px 'Poppins', sans-serif !important;
+    }
+    .attach-resume__icon{
+        font-size: 35px !important;
+    }
+    .mail-box{
+        padding: 20px !important;
+    }
+    .mail-content-box{
+        border-radius: 4px !important;
+        margin: 20px 0 !important;
+    }
+    .mailcontent-header{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+        padding: 10px !important;
+    }
+    .profile-pic{
+        height: 60px !important;
+        width: 60px !important;
+    }
+    .mailcontent-name{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+        margin-bottom: 0 !important;
+    }
+    .mailcontent-mail{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .mailcontent-sec{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .mailcontent-number{
+        font: 18px 'Poppins', sans-serif;
+        font-weight: 700 !important;
+    }
+    .numbers__code{
+        gap: 20px !important;
+    }
+    .table-head{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .table-date{
+        font: 13px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .table-element{
+        font: 14px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .policyhead {
+        font: 36px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .policy-screen #policy-section .policy-text {
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .email-button, .history-button, .share .share-button {
+        padding: 8px 24px !important;
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+        border-radius: 8px !important;
+    }
+    .share, .history{
+        padding: 30px 25px !important;
+    }
+    .attach-resume {
+        border-radius: 8px !important;
+        padding: 15px 24px !important;
+        width: 92% !important;
+        margin: 16px !important;
+    }
+    .resume-head{
+        font: 16px 'Poppins', sans-serif !important;
+    }
+    .attach-resume__icon{
+        font-size: 40px !important;
+    }
+    .mail-box{
+        padding: 30px 20px !important;
+    }
+    .mail-content-box{
+        border-radius: 8px !important;
+        margin: 30px 0 !important;
+    }
+    .mailcontent-header{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+        padding: 15px !important;
+    }
+    .profile-pic{
+        height: 80px !important;
+        width: 80px !important;
+    }
+    .mailcontent-name{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+        margin-bottom: 0 !important;
+    }
+    .mailcontent-mail{
+        font: 16px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .mailcontent-sec{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .mailcontent-number{
+        font: 20px 'Poppins', sans-serif;
+        font-weight: 700 !important;
+    }
+    .numbers__code{
+        gap: 20px !important;
+    }
+    .table-head{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .table-date{
+        font: 18px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .table-element{
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 500 !important;
+    }
+    .policyhead {
+        font: 48px 'Poppins', sans-serif !important;
+        font-weight: 700 !important;
+    }
+    .policy-screen #policy-section .policy-text {
+        font: 20px 'Poppins', sans-serif !important;
+        font-weight: 400 !important;
+    }
+    div.flexRow.mw1100.flexBetween > div:nth-child(1) > a,
+    div.flexRow.mw1100.flexBetween > div:nth-child(4) > button {
+        border: 3px solid #00e5d8;
+        background-color: #00e5d8;
+        color: black;
+    }
+    div.flexRow.mw1100.flexBetween > div:nth-child(1) > a:hover,
+    div.flexRow.mw1100.flexBetween > div:nth-child(4) > button:hover {
+        background-color: inherit;
+        color: black;
+        border: 3px solid #00e5d8;
+    }
+}
+
+.about-img{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}

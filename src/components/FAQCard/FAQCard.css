@@ -1,0 +1,31 @@
+.faq-card{
+    background: #F2D492;
+    border-radius: 8px;
+    padding: 10px 30px;
+    margin: 15px 0;
+    z-index: 1000;
+    position: relative;
+    cursor: pointer
+}
+.faq-card:hover{
+    background: #F2B630 !important;
+}
+.faq-ques{
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.ans-card{ 
+    background: #FFFFFF;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 40px;
+    position: relative;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+    top: -20px;
+    z-index: 1;
+}
+.ans{
+    font: 18px 'Poppins', sans-serif;
+    font-weight: 400;
+}

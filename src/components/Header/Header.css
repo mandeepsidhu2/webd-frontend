@@ -1,0 +1,41 @@
+p{
+    margin: 0;
+    line-height: 1.5 !important;
+}
+.navbar{
+    padding: 1.25rem 1.25rem;
+}
+.header{
+    box-shadow: none;
+    width: 90%;
+    margin: auto;
+    flex: 1;
+    border-bottom: 1px solid #C7C7C7;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.avatar-name{
+    margin: auto 0;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.name{
+    font-weight: bold;
+}

@@ -1,0 +1,76 @@
+.footer{
+    background: #202C39;
+    mix-blend-mode: normal;
+    padding: 80px;
+    color: white;
+}
+.footer-logo{
+    font: 36px 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.footer-links{
+    font: 16px 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color: white;
+}
+.mr-40{
+    margin-right: 40px;
+}
+a.linkedinIcon > span > svg,
+a.instagramIcon > span > svg,
+a.facebookIcon > span > svg {
+    font-size: 25px;
+    margin: 0 10px;
+}
+footer > div > div > a:nth-child(1) {
+    margin-left: 30px;
+}
+.copyright > p{
+    margin-top: 20px;
+    font: 16px 'Poppins', sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    a.linkedinIcon > span > svg,
+    a.instagramIcon > span > svg,
+    a.facebookIcon > span > svg {
+        font-size: 16px;
+        margin: 0 3px;
+    }
+    footer > div > div > a:nth-child(1) {
+        margin-left: 5px;
+    }
+    .copyright > p{
+        font: 12px 'Poppins', sans-serif;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    a.linkedinIcon > span > svg,
+    a.instagramIcon > span > svg,
+    a.facebookIcon > span > svg {
+        font-size: 25px;
+        margin: 0 10px;
+    }
+    .copyright > p{
+        font: 16px 'Poppins', sans-serif;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+    a.linkedinIcon > span > svg,
+    a.instagramIcon > span > svg,
+    a.facebookIcon > span > svg {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .copyright > p{
+        font: 14px 'Poppins', sans-serif;
+    }
+}

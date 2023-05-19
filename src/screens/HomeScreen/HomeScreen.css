@@ -1,0 +1,167 @@
+#intro-section{
+    margin : 60px 0;
+}
+.mw600{
+    max-width: 600px;
+}
+#intro-section .intro-text{
+    font: 56px 'Gilroy', sans-serif;
+    font-weight: 800;
+}
+#intro-section .intro-button{
+    background-color: #00E5D8;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    width: 30%;
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 700;
+    color: rgba(40,40,40,1);
+    text-align: center;
+}
+#intro-section .intro-button:hover{
+    background-color: inherit;
+    border: 3px solid #00E5D8;
+    padding: 7px 27px;
+}
+#why-tabber{
+    margin: 60px 0;
+    background-color: rgba(242,230,203,1);
+    padding: 40px 0 80px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+#why-tabber .whytabber-heading, .tabberfeatures-heading, .achievements-heading, .tabberfeatures-heading{
+    font: 40px 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.whyTabberlist{
+    list-style-position: outside;
+    list-style-type: none;
+}
+#why-tabber .whytabber-text, .whytabber-point{
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 400;
+    list-style-position: outside;
+}
+#why-tabber .whytabber-features{
+    font: 20px 'Poppins', sans-serif;
+    font-weight: 500;
+}
+#tabberfeatures, #faq{
+    margin: 60px 0;
+    padding: 40px;
+}
+#achievements{
+    background-color: #81CDC8;
+    margin: 60px 0;
+    padding: 80px 40px;
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video{
+    width: 90% !important;
+}
+
+@media (max-width: 400px) {
+    .embed-responsive{
+        left: 5%;
+    }
+}
+.trending__profiles{
+    gap: 30px;
+}
+.trending__profilesHeader{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    color: #000000;
+}
+.trending__profilesCards{
+    gap: 40px;
+    padding: 0 60px;
+}
+.trending__profileCard{
+    width: 300px;
+    height: 300px;
+    background: #F8F8F8;
+    box-shadow: 0px 4px 12px -4px rgba(100, 99, 99, 0.25);
+    border-radius: 8px;
+    gap: 10px;
+    padding: 20px 30px;
+}
+.trending__profileImage{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.trending__profileName, .trending__profileCollege, .trending__profileViews{
+    text-align: center;
+}
+.trending__profileName{
+    font-family: Poppins;
+    font-size: 24px;
+    height: 40px;
+}
+.trending__profileCollege{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    height: 40px;
+}
+.trending__profileViews{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) and (min-width: 769px){
+    .trending__profilesCards{
+        padding: 0 20px;
+    }
+    .trending__profileName{
+        font-size: 21px;
+    }
+}
+@media (max-width: 768px) and (min-width: 601px){
+    .trending__profilesCards{
+        padding: 0 60px;
+    }
+    .trending__profileName{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 600px){
+    .trending__profilesCards{
+        padding: 0 20px;
+    }
+    .trending__profileCard{
+        width: 90%;
+        height: 100%;
+        background: #F8F8F8;
+        box-shadow: 0px 4px 12px -4px rgba(100, 99, 99, 0.25);
+        border-radius: 8px;
+        padding: 30px 15px;
+    }
+    .trending__profiles .trending__profilesCards #trendingImgProfile{
+        height: 80px;
+        width: 80px !important;
+        border-radius: 50%;
+    }
+    .trending__profileName{
+        font-size: 18px;
+        height: 20px;
+    }
+    .trending__profileCollege{
+        height: 20px;
+        font-size: 16px;
+    }
+    .trending__profileViews{
+        font-size: 20px;
+    }
+}
