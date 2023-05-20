@@ -68,6 +68,7 @@ const GoogleBtn = ({open, close}) => {
 
   const loginFailure = (response) => {
     open();    
+    console.log(JSON.stringify(response))
     ErrorToast('Login Failed, Retry!');
     close();
   }

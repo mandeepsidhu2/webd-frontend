@@ -8,6 +8,7 @@ import DisplayScreen from "./screens/DisplayScreen/DisplayScreen";
 import PolicyScreen from "./screens/PolicyScreen/PolicyScreen";
 import TermsScreen from "./screens/TermsScreen/TermsScreen";
 import SearchScreen from "./screens/SearchScreen/SearchScreen"
+import AuthScreen from "./screens/AuthScreen/AuthScreen"
 import Error404 from "./screens/Error404";
 import {
   BrowserRouter as Router,
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/contact" component={ContactScreen} />
           <Route exact path="/policy" component={PolicyScreen} />
           <Route exact path="/terms" component={TermsScreen} />
+          <Route exact path="/auth" component={AuthScreen} />
           <Route component={Error404} />
         </Switch>
       </Router>

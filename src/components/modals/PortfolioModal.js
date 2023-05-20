@@ -31,8 +31,6 @@ export default function PortfolioModal({ home, open, close, terms }) {
   const portfolio = useSelector(userPortfolio);
   const history = useHistory();
   const [modalShow, setModalShow] = useState(false);
-  const [modalShow2, setModalShow2] = useState(false);
-  const [accept, setAccept] = useState(false);
   const [collegeList, setList] = useState([]);
   const [educationLevels, setEducationLevels] = useState([]);
 
@@ -108,7 +106,7 @@ export default function PortfolioModal({ home, open, close, terms }) {
   };
 
   useEffect(() => {
-    !home && !portfolio && (accept ? setModalShow(true) : setModalShow2(true));
+    !home && !portfolio && setModalShow(true);
     getUnivList();
     getEducationLevels();
   }, []);
@@ -226,9 +224,7 @@ export default function PortfolioModal({ home, open, close, terms }) {
     );
   }
   
-  const setAct = (option) => {
-    setAccept(option)
-  }
+ 
 
   return (
     <>
@@ -240,7 +236,7 @@ export default function PortfolioModal({ home, open, close, terms }) {
               if (portfolio) {
                 history.push("/portfolio");
               } else {
-                (accept ? setModalShow(true) : setModalShow2(true))
+                setModalShow(true)
               }
             } else {
               WarningToast("You need to Login first!");
@@ -253,7 +249,10 @@ export default function PortfolioModal({ home, open, close, terms }) {
       ) : (
         <button
           onClick={() => {
-            portfolio ? history.push("/portfolio") : (accept ? setModalShow(true) : setModalShow2(true));
+              if(portfolio){
+                history.push("/portfolio")
+                setModalShow(true)
+              }
           }}
           className="edit-your-portfolio grow1"
         >
@@ -264,7 +263,6 @@ export default function PortfolioModal({ home, open, close, terms }) {
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
-      {terms && !accept && <TermsnCondns setModalShow1={setModalShow} setModalShow={setModalShow2} modalShow={modalShow2} terms={terms} setAccept={setAct} />}
     </>
   );
 }

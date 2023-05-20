@@ -11,6 +11,7 @@ import { logOutUser, userLogin } from '../../features/user/userSlice';
 import { useHistory } from 'react-router-dom';
 import { googleLogout } from '@react-oauth/google';
 
+import GithubBtn from "../GithubBtn";
 
 function Header({open, close}){
     const dispatch = useDispatch();
@@ -68,7 +69,7 @@ function Header({open, close}){
                     </Form>
                     </Nav>
 
-                    <GoogleBtn open={open} close={close} />
+                    <GithubBtn open={open} close={close} />
                     {isLogin && <DropdownButton
                             menuAlign="right"
                             title=""

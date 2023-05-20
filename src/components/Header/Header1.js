@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './Header.css';
 import { Navbar, Nav , Form,Button} from 'react-bootstrap';
 import splashlogo from '../../assets/images/logo.png';
-import GoogleBtn from '../GoogleBtn';
+import GithubBtn from '../GithubBtn';
 import Avatar from '@material-ui/core/Avatar';
 import { SuccessToast } from '../../utility/localStorageControl';
 import { useDispatch, useSelector } from 'react-redux';
@@ -91,7 +91,7 @@ function Header1(){
                             </div>
                         )
                     ) : (
-                        <GoogleBtn open={open} close={close} />
+                        <GithubBtn open={open} close={close} />
                     )}
                 </div>
             </Navbar>

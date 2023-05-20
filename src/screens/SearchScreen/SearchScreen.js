@@ -40,9 +40,8 @@ function TermsScreen() {
   const renderTableRows = () => {
     return items.map((item) => (
       <tr key={item.id}>
-        <td><a target="_blank" href={item.html_url}><img height="48px" width="48px"  src={item.avatar_url}></img></a></td>
-        <td>{item.login}</td>
-        <td>{item.url}</td>
+        <td><a href={item.html_url}><img height="48px" width="48px" src={item.avatar_url} target ="_blank" ></img></a></td>
+        <td>{item.login}</td>  
       </tr>
     ));
   };
@@ -137,9 +136,8 @@ function TermsScreen() {
       <table className="table">
         <thead>
           <tr>
-            <th></th>
-            <th>Username</th>
-            <th>URL</th>
+            <th>Login</th>
+            <th>Name</th>
           </tr>
         </thead>
         <tbody>{renderTableRows()}</tbody>
