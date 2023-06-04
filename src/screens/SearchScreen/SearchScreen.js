@@ -3,20 +3,17 @@ import '../../styles/HelperStyles.css';
 import './SearchScreen.css';
 import Header1 from '../../components/Header/Header1';
 import Axios from 'axios';
-import Footer from '../../components/Footer/Footer';
-import Loader from '../../components/Loader/Loader';
-import { API_ENDPOINT } from '../../AdminServices/baseUrl';
 import { ErrorToast } from '../../utility/localStorageControl';
-import  AdminService  from '../../AdminServices/AdminService';
 import { useHistory } from 'react-router-dom';
 import { ToastContainer } from "react-toastify";
+import {  Table } from "react-bootstrap";
 
 function TermsScreen() {
   const [query, setQuery] = useState('');
   const [items, setItems] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalItems, setTotalItems] = useState(0);
-  const itemsPerPage = 10;
+  const itemsPerPage = 8;
   const history = useHistory();
 
   const loadDataFromGithub = async (query) => {
@@ -34,7 +31,7 @@ function TermsScreen() {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
-    loadDataFromGithub({ username: query, per_page: 10, page: pageNumber });
+    loadDataFromGithub({ username: query, per_page: itemsPerPage, page: pageNumber });
   };
 
   const renderTableRows = () => {
@@ -102,7 +99,7 @@ function TermsScreen() {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const queryParam = urlParams.get('query');
-    loadDataFromGithub({ username: queryParam, per_page: 10, page: 1 });
+    loadDataFromGithub({ username: queryParam, per_page: itemsPerPage, page: 1 });
     setQuery(queryParam);
   }, []);
 
@@ -112,7 +109,7 @@ function TermsScreen() {
       const queryParam = urlParams.get('query');
       setQuery(queryParam);
       setCurrentPage(1);
-      loadDataFromGithub({ username: queryParam, per_page: 10, page: 1 });
+      loadDataFromGithub({ username: queryParam, per_page: itemsPerPage, page: 1 });
     };
 
     history.listen(handleLocationChange);
@@ -133,18 +130,26 @@ function TermsScreen() {
         pauseOnHover
       />
       <Header1 />
-      <table className="table">
-        <thead>
-          <tr>
-            <th>Login</th>
-            <th>Name</th>
-          </tr>
-        </thead>
-        <tbody>{renderTableRows()}</tbody>
-      </table>
+      <div style={{width:"80%",marginLeft:"10%",marginTop:"5%"}}>
+      <Table striped bordered hover style={{ borderRadius: 8 }}>
+            <thead>
+              <tr>
+                <th className="table-head">Login</th>
+                <th className="table-head">Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              {renderTableRows()}
+            </tbody>
+          </Table>
+
+      <div style={{marginLeft:"26%"}}>
       <nav aria-label="Page navigation">
         <ul className="pagination">{renderPaginationButtons()}</ul>
       </nav>
+      </div>
+        </div>
+
     </div>
   );
 }
