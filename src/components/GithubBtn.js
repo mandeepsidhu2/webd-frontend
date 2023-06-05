@@ -1,15 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState, useEffect} from 'react'
-import { ErrorToast, setItem, SuccessToast, WarningToast } from '../utility/localStorageControl';
-import Axios from 'axios';
+
 import PortfolioModal from '../components/modals/PortfolioModal';
-import AdminService from '../AdminServices/AdminService';
-import {API_ENDPOINT} from '../AdminServices/baseUrl';
+import { AiFillGithub } from 'react-icons/ai';
+
 import { useDispatch, useSelector } from 'react-redux';
 import {logOutUser, logUser, setUser, userID, userLogin, userPortfolio} from '../features/user/userSlice'
-import { useHistory } from 'react-router-dom';
-import TermsnCondns from './modals/TermsnCondns';
-import { GoogleLogin } from '@react-oauth/google';
+
 
 const CLIENT_ID = '4bbf2c8cbb0a20ff5a7c';
 
@@ -42,10 +39,10 @@ const GithubBtn = ({open, close}) => {
         )
         : 
         (
-          <button
+          <button type="button" class="btn btn-success"
             onClick={login}
             buttonText='Sign in with Github'
-          >Login With Github</button>
+          >Login With Github  <AiFillGithub style={{marginLeft:"5px"}}/></button>
         )
       }
     </div>

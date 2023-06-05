@@ -94,4 +94,10 @@ export default {
   getTrendingProfiles:  async () => {
     return DataService.get(`/website/trendingProfiles`)
   },
+  getListOfUsers: async()=>{
+    return DataService.get(`/admin_user/get-users`)
+  },
+  updatePlanID: async(planId,userId)=>{
+    return DataService.get(`/admin_user/update_plan_id?planId=${planId}&userId=${userId}`)
+  }
 }

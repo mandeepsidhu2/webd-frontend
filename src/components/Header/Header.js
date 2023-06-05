@@ -7,7 +7,7 @@ import GoogleBtn from '../GoogleBtn';
 import { SuccessToast } from '../../utility/localStorageControl';
 import '../../styles/HelperStyles.css'
 import { useDispatch, useSelector } from 'react-redux';
-import { logOutUser, userLogin } from '../../features/user/userSlice';
+import { logOutUser, userLogin, userType } from '../../features/user/userSlice';
 import { useHistory } from 'react-router-dom';
 import { googleLogout } from '@react-oauth/google';
 
@@ -17,6 +17,7 @@ function Header({open, close}){
     const dispatch = useDispatch();
     const history = useHistory();
     const isLogin = useSelector(userLogin);
+    const isAdmin = useSelector(userType)=="admin";
     const [searchValue, setSearchValue] = useState('');
 
    
@@ -53,6 +54,7 @@ function Header({open, close}){
                         <Nav.Link className="grow2" href="/about">About</Nav.Link>
                         <Nav.Link className="grow2" href="/home#faq">FAQ</Nav.Link>
                         <Nav.Link className="grow2" href="/contact">Contact</Nav.Link>
+                        {isAdmin?<Nav.Link className="grow2" href="/admin">Admin</Nav.Link>:null}
                     </Nav>
 
                     <Nav className="mr-auto flexRow">

@@ -50,6 +50,7 @@ const userSlice = createSlice({
         },
         setUser: (state, action) => {
             state.user_id = action.payload.user_id;
+            state.user_type = action.payload.user_type;
             state.name = action.payload.name;
             state.email = action.payload.email;
             state.image = action.payload.picture_url;
@@ -113,5 +114,6 @@ export const userHistory = state => state.user.sent_history;
 export const userMailSent = state => state.user.total_mails_sent;
 export const userPortfolioLink = state => state.user.portfolio_link;
 export const userStringMap = state => state.user.string_map;
+export const userType = state => state.user.user_type;
 
 export default userSlice.reducer;

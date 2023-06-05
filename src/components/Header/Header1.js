@@ -63,6 +63,8 @@ function Header1(){
                         <Nav.Link className="grow2" href="/about">About</Nav.Link>
                         <Nav.Link className="grow2" href="/home#faq">FAQ</Nav.Link>
                         <Nav.Link className="grow2" href="/contact">Contact</Nav.Link>
+                        <Nav.Link className="grow2" href="/admin">Admin</Nav.Link>
+
                     </Nav>
                     <Nav className="mr-auto flexRow">
                     <Form menuAlign="center" className="d-flex flexRow" onSubmit={handleSearch}>

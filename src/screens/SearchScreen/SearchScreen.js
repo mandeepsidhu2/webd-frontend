@@ -44,7 +44,8 @@ function TermsScreen() {
   };
 
   const renderPaginationButtons = () => {
-    const totalPages = Math.ceil(totalItems / itemsPerPage);
+   // const totalPages = Math.floor(totalItems / itemsPerPage);
+   const totalPages =  Math.floor(1000 / itemsPerPage);// only first 1000 are available
     const buttons = [];
 
     // First page button

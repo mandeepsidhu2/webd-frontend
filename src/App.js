@@ -9,6 +9,7 @@ import PolicyScreen from "./screens/PolicyScreen/PolicyScreen";
 import TermsScreen from "./screens/TermsScreen/TermsScreen";
 import SearchScreen from "./screens/SearchScreen/SearchScreen"
 import AuthScreen from "./screens/AuthScreen/AuthScreen"
+import AdminScreen from "./screens/AdminScreen/AdminScreen"
 import Error404 from "./screens/Error404";
 import {
   BrowserRouter as Router,
@@ -27,6 +28,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomeScreen} />
           <Route exact path="/home" component={HomeScreen} />
+          <Route exact path="/admin" component={AdminScreen} />
           <Route exact path="/portfolio">
             {accessToken ? <PortfolioScreen /> : <Redirect to="/home" />}
           </Route>
