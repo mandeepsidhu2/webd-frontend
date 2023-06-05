@@ -9,14 +9,12 @@ import CodingProfileModal from "../../components/modals/CodingProfileModal";
 import ContestProfileModal from "../../components/modals/ContestProfileModal";
 import ProjectModal from "../../components/modals/ProjectModal";
 import ShareModal from "../../components/modals/ShareModal";
-import SentHistoryModal from "../../components/modals/SentHistory";
 import Header1 from "../../components/Header/Header1";
 import {AiOutlineDown, AiOutlineUp} from 'react-icons/ai';
 import { ErrorToast, ReversePortalMap } from "../../utility/localStorageControl";
 import { ToastContainer } from "react-toastify";
 import { isMobile } from "react-device-detect";
 import AttachResumeModal from "../../components/modals/AttachResume";
-import SendViaEmail from "../../components/modals/SendViaEmail";
 import Loader from "../../components/Loader/Loader";
 import LinkedInProfileModal from "../../components/modals/LinkedInProfile";
 import { useSelector, useDispatch } from "react-redux";
@@ -57,8 +55,6 @@ function PortfolioScreen() {
   let college = portfolio && portfolio.college;
   let educationLevel = portfolio && portfolio.education_level;
   let graduation_year = portfolio && portfolio.graduation_year;
-  let totalViews = portfolio && portfolio.views;
-  let recentViews = portfolio && portfolio.recentViews;
 
   const [courses, showCourses] = useState(false);
   const [experiences, showExperiences] = useState(false);
@@ -109,11 +105,6 @@ function PortfolioScreen() {
       />
       <Header1 />
       <div className="flexRow mw1100 flexBetween" style={{}}>
-        <SendViaEmail
-          open={() => setloader(true)}
-          close={() => setloader(false)}
-        />
-        <SentHistoryModal />
         <UpdatePortfolioModal
           open={() => setloader(true)}
           close={() => setloader(false)}
@@ -376,17 +367,6 @@ function PortfolioScreen() {
             <hr style={{ width: "35%", color: "rgba(154,154,154,1)" }} />
           </div>
           <div>
-          <div className="viewsContainer">
-            <div className="flexRow flexCenter">Views</div>
-            <div className="flexRow flexCenter flexAlignCenter mv-10 viewsDetails">
-              <p>Total :</p>
-              <div className="totalViews">{totalViews}</div>
-              <BiShow />
-              <p className="recent">Recent :</p>
-              <div className="recentViews">{recentViews}</div>
-              <BiShowAlt />
-            </div>
-          </div>
           </div>
         </div>
       </div>

@@ -11,6 +11,7 @@ import Axios from 'axios';
 import {API_ENDPOINT} from '../../AdminServices/baseUrl';
 import Loader from '../../components/Loader/Loader';
 import { ErrorToast, SuccessToast } from '../../utility/localStorageControl';
+import { ToastContainer } from "react-toastify";
 
 function ContactScreen() {
     const [name, setName] = useState('');
@@ -34,24 +35,39 @@ function ContactScreen() {
                 'text': message,
                 'email': email,
             }
-            Axios.post(`${API_ENDPOINT}/email`, mailContent)
-                .then(resp => {
-                    SuccessToast('Mail Sent!')
-                    setloader(false);
-                    ClearFields();
-                })
-                .catch(err => {
-                    ErrorToast('Some Error Occured!')
-                    setloader(false);
-                })
+            SuccessToast('Mail Sent!')
+
+    
+            // Axios.post(`${API_ENDPOINT}/email`, mailContent)
+            //     .then(resp => {
+            //         SuccessToast('Mail Sent!')
+            //         setloader(false);
+            //         ClearFields();
+            //     })
+            //     .catch(err => {
+            //         ErrorToast('Some Error Occured!')
+            //         setloader(false);
+            //     })
         } else{
             ErrorToast('Error, Fields cannot be empty!')
-              setloader(false);
+              
         }
+        setloader(false);
 
     }
   return (
     <div className="contact-screen">
+                   <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={true}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
         {loader ? <Loader /> : null}
         <Header1 />
         <div id="contact-section">

@@ -61,9 +61,6 @@ export default {
   UpdateSocialProfiles: async (data) => {
     return DataService.put('/socialwebsite/update', data)
   },
-  SentHistory: async (page, items) => {
-    return DataService.get(`/email/history?page_no=${page}&items_per_page=${items}`)
-  },
   UpdateName: async (name) =>{
     return DataService.get(`/user/update/user_name?userName=${name}`)
   },
