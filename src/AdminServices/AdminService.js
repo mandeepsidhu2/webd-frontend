@@ -96,5 +96,8 @@ export default {
   },
   updatePlanID: async(planId,userId)=>{
     return DataService.get(`/admin_user/update_plan_id?planId=${planId}&userId=${userId}`)
+  },
+  updateUserType: async(userType)=>{
+    return DataService.get(`/user/update_user_type?userType=${userType}`)
   }
 }

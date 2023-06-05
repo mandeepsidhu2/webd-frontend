@@ -60,6 +60,7 @@ function TermsScreen() {
 
   const signUp = (value) => {
    console.log(selectedOption)
+   AdminService.updateUserType(selectedOption).then(()=>SuccessToast("User Type Updated!"))
    // update user type here
    history.push("/home")
   };
